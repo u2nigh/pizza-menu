@@ -202,20 +202,14 @@ FONT SIZE SYSTEM (px)
     font-size: 55.5%;
   }
 
-  /* .header h1 {
+  .header h1 {
     font-size: 2.6rem;
-  } */
-
-  .header h1::before,
-  .header h1::after {
-    height: 1px;
-    width: 2rem;
   }
 
   .header h1::before,
   .header h1::after {
-    height: 4px;
-    width: 6rem;
+    height: 0.2rem;
+    width: 4rem;
   }
 
   .pizzas {
